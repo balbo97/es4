@@ -30,14 +30,13 @@ body{
     
 }
 /* MAIN */
-
-/* BUTTONS */
 main{
     width: 50%;
     margin: 30px auto;
     
 }
 
+/* BUTTONS */
 .buttons{
     background-color: white;
     padding: 15px 45px;
@@ -61,4 +60,11 @@ main{
     border-width: 1px;
     padding: 5px 15px;
     border-radius: 5px;
+}
+
+/* UNORDERED LIST */
+.unordered-list{
+    background-color: white;
+    padding: 30px 45px;
+    margin-top: 3px;
 }
