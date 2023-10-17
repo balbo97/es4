@@ -3,13 +3,24 @@
     margin: 0;
     box-sizing: content-box;
 }
- 
-.logo-img{
-    height: 60px;
-    width: 60px;
-    margin: 15px 0px 15px 20px;
-    vertical-align: middle;
 
+body{
+    background-color: rgba(128, 128, 128, 0.28);
+}
+
+
+ /* HEADER */
+ header{
+    background-color: white;
+    height: 60px;
+    margin: 0;
+
+ }
+
+.logo-img{
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
 }
 
 .toboolist{
@@ -17,4 +28,37 @@
     font-size: 50px;
     vertical-align: middle;
     
+}
+/* MAIN */
+
+/* BUTTONS */
+main{
+    width: 50%;
+    margin: 30px auto;
+    
+}
+
+.buttons{
+    background-color: white;
+    padding: 15px 45px;
+}
+
+#add-task{
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border-color: rgb(0, 174, 255);
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#add-section{
+    border-color: grey;
+    color: grey;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 15px;
+    border-radius: 5px;
 }
